@@ -1,0 +1,37 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended"
+	],
+	"jsRules": {},
+	"rules": {
+		"prefer-for-of": false,
+		"indent": [
+			true,
+			"tabs",
+			4
+		],
+		"only-arrow-functions": [
+			false,
+			"allow-declarations",
+			"allow-named-functions"
+		],
+		"curly": [
+			false,
+			"as-needed"
+		],
+		"space-before-function-paren": [
+			true,
+			"never"
+		],
+		"max-line-length": false,
+		"object-literal-sort-keys": false
+	},
+	"linterOptions": {
+		"exclude": [
+			"build/*",
+			"test/*"
+		]
+	},
+	"rulesDirectory": []
+}
